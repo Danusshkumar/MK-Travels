@@ -1,0 +1,92 @@
+  <!doctype html>
+ <html>
+ <head>
+ <title></title>
+ <style>
+ #header {
+ display:flex;
+ flex-direction:row;
+ justify-content:left;
+ background-color:rgb(0,0,0);
+ height:150px;
+}
+ #footer {
+ background-color:rgb(194, 194, 194);
+ height:170px;
+ }
+ #main {
+ background-color:rgb(206, 237, 215);
+ height:1000px;
+ }
+ #navbar {
+display:flex;
+flex-direction:row;
+justify-content:right;
+align-items:right;
+margin-top:60px;
+margin-right:10px;
+margin-left:900px;
+ }
+ .navbutton {
+ font-family:'Poor Richard';
+ font-size:20px;
+ border:2px solid rgb(0,0,0);
+ background-color:rgb(0,0,0);
+ color:white;
+ height:50px;
+ width:130px;
+ border-radius:20px;
+ }
+ .navbutton:hover {
+ background-color:rgb(0, 181, 63);
+ cursor:pointer;
+ color:white;
+ }
+#footer2 {
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+#footer21 {
+padding:30px;
+}
+#footer21:hover {
+color:rgb(0, 181, 63);
+cursor:pointer;
+}
+#webname {
+color:white;
+margin-left:20px;
+margin-top:50px;
+font-family:"Forte";
+}
+#webname:hover {
+color:rgb(0, 181, 63);
+cursor:pointer;
+}
+ </style>
+ <script></script>
+ </head>
+ <body>
+ <div id = "header">
+ <img src = "logo.jpg" style = "height:120px; width:120px;margin:20px;">
+ <h1 id = "webname">MK Travels</h1>
+ <div id = "navbar">
+<button class = "navbutton" onclick = "window.location.href = 'home.html' ;">Home</button>
+<button class = "navbutton" onclick = "window.location.href = 'diceGame.html' ;">Dice car Game</button>
+<button class = "navbutton" onclick = "window.location.href = 'bookNow.html' ;">Registration</button>
+<button class = "navbutton" onclick = "window.location.href = 'createAccount.html' ;">Create Account</button>
+</div>
+ </div>
+ <div id = "main">
+ </div>
+ <div id = "footer">
+ <h2 style = "text-align:center; color:rgb(54, 54, 54); font-weight:lighter; padding-top:20px;">All rights reserved</h2>
+<div id = "footer2">
+<a id = "footer21">Terms Of Services</a>
+<a id = "footer21">Privacy policy</a>
+<a id = "footer21">Contact Us</a>
+</div>
+ </div>
+ </body>
+ </html>

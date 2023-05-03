@@ -1,0 +1,209 @@
+ <!doctype html>
+ <html>
+ <head>
+ <title></title>
+ <style>
+ #header {
+ display:flex;
+ flex-direction:row;
+ justify-content:space-between;
+ background-color:rgb(0,0,0);
+ height:150px;
+}
+ #footer {
+ background-color:rgb(194, 194, 194);
+ height:170px;
+ }
+ #main {
+ background-color:rgb(206, 237, 215);
+ font-family:'Poor Richard';
+ }
+ #navbar {
+margin-top:60px;
+margin-right:10px;
+ }
+ .navbutton {
+ font-family:'Poor Richard';
+ font-size:20px;
+ border:2px solid rgb(0,0,0);
+ background-color:rgb(0,0,0);
+ color:white;
+ height:50px;
+ width:130px;
+ border-radius:20px;
+ }
+ .navbutton:hover {
+ background-color:rgb(0, 181, 63);
+ cursor:pointer;
+ color:white;
+ }
+#footer2 {
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+#footer21 {
+padding:30px;
+}
+#footer21:hover {
+color:rgb(0, 181, 63);
+cursor:pointer;
+}
+#webname {
+color:white;
+margin-left:20px;
+margin-top:50px;
+font-family:"Forte";
+}
+#webname:hover {
+color:rgb(0, 181, 63);
+cursor:pointer;
+}
+#homevid {
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+h1 {
+margin-left:10px;
+}
+h2 {
+margin-left:40px;
+}
+p {
+margin-left:60px;
+}
+#paradiv {
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+#paradiv img {
+margin-right:150px;
+}
+table {
+display:flex;
+flex-direction:row;
+justify-content:center;
+border-radius:50px;
+margin:30px;
+margin-left:550px;
+margin-right:550px;
+}
+th,td {
+border:2px solid black;
+height:80px;
+width:200px;
+padding:10px;
+font-size:20px;
+text-align:center;
+}
+table,th,td {
+border-collapse:collapse;
+}
+th {
+background-color:rgb(0, 181, 63);
+}
+tr:hover {
+background-color:rgb(83, 219, 123);
+color:white;
+}
+#list {
+margin-left:50px;
+font-size:50px;
+}
+#hyperlink {
+text-align:center;
+color:rgb(0, 181, 63);
+font-size:40px;
+}
+ </style>
+ <script></script>
+ </head>
+ <body>
+ <div id = "header">
+ <img src = "logo.jpg" style = "height:120px; width:120px;margin:20px;">
+ <h1 id = "webname">MK Travels</h1>
+ <div id = "navbar">
+<button class = "navbutton" onclick = "window.location.href = 'home.html' ;">Home</button>
+<button class = "navbutton" onclick = "window.location.href = 'createAccount.html' ;">Create Account</button>
+</div>
+ </div>
+ <div id = "main">
+ <img src = "travelimg.gif" height = "600px" width = "100%">
+ <h1 style = "color:rgb(0, 181, 63)">Travel Experience in MK Travels</h1>
+ <h2 style = "color:rgb(0, 181, 63)">Best of our Winter travel content:</h2>
+ <div id = "paradiv">
+ <p style = "font-size:20px;"><b>
+ Winter has come. Every year, when the weather starts to turn chilly in our corner of the world, we find the content we produce for clients begins to take on a distinctly seasonal slant. All of a sudden, the travel content agenda is dominated by all things wintery, from celebrations like Christmas and New Year to activities such as winter sports.<br><br>
+Our winter travel content is for everyone to enjoy. Disappointed you’re not cosied up in a chalet by a roaring log fire? Read about our Alpine adventures in St. Moritz and pretend you are. Rather have some winter sun? Read our guide on the Greek Islands and all the advent adventures they have to offer. Or maybe you’d rather forego winter altogether and enjoy another (even hotter) summer. Read our feature on Australia and its weird, wonderful wildlife.<b><br><br>
+<span style = "color:rgb(0, 181, 63)">The image is given as link. Touch there to go main source page</span></p>
+<a href = "https://world-words.com/travel-website-content-writing/"><img src = "winter.jpg" height = "300px" width = "500px"></a>
+</div>
+<h2 style = "color:rgb(0, 181, 63)">Best of our Autumn travel content:</h2>
+<div id = "paradiv">
+<p style = "font-size:20px;"><b>We hate to begin with bad news, but there’s no avoiding it: summer is officially over. However, rather than dwelling on all the negatives (bye bye sunshine, sandals and copious amounts of ice cream), let’s all focus on the positives. Autumn is here, and that means loads of exciting things are on the horizon, from nature adventures to city breaks.<br><br>
+
+To celebrate, we’ve decided to share some of our favourite fall-themed travel content written by the World Words team, from inspiring magazine articles and engaging travel blogs to detailed destination guides. Why not prolong your summer with a sunny beach escape in Goa or with a wine-filled Napa Valley weekend? Alternatively, gear up for winter via the geysers and glaciers of both Canada and Iceland. You could also enjoy a seasonal city break in cafe-filled Vienna, or spend your autumn seeing all the sights of lesser-visited Lithuania. The options are endless.<b><br><br>
+<span style = "color:rgb(0, 181, 63)">The image is given as link. Touch there to go main source page</span></p>
+<a href = "https://world-words.com/travel-website-content-writing/"><img src = "autumn.jpg" height = "300px" width = "500px"></a>
+</div>
+<h2 style = "color:rgb(0, 181, 63)">Here is the small video of the MK travel:</h2>
+<div id = "homevid">
+<video height = "800px" width = "1000px" controls>
+<source src = "homeVideo.mp4" type = "video/mp4" >
+</video>
+</div>
+<h2 style = "color:rgb(0, 181, 63); text-align:center;margin:50px;">Our services</h2>
+<div id = "table">
+ <table>
+   <tr>
+   <th>Place</th> <th>Year of Establishment</th> <th>No of Buses available</th>
+   </tr> 
+   <tr>
+   <td>Chennai</td> <td>1988</td> <td>102</td>
+   </tr>
+   <tr>
+   <td>Mumbai</td> <td>1994</td> <td>87</td>
+   </tr>
+   <tr>
+   <td>Calcutta</td> <td>1994</td> <td>56</td>
+   </tr>
+   <tr>
+   <td>New Delhi</td> <td>2000</td> <td>67</td>
+   </tr>
+   <tr>
+   <td>Hyderabad</td> <td>2008</td> <td>45</td>
+   </tr>
+   <tr>
+   <td>Goa</td> <td>2009</td> <td>87</td>
+   </tr>
+   <tr>
+   <td>Punjab</td> <td>2010</td> <td>61</td>
+   </tr>
+ </table>
+ </div>
+ <h2  style = "color:rgb(0, 181, 63); fontsize:40px;">The places where the peoples visited through MK Travels:</h2>
+ <div id = "list">
+ <ul style="list-style-type:square">
+ <li>Taj Mahal, Agra</li>
+ <li>The Amber Place</li>
+ <li>The Golden Temple, Amrister</li>
+ <li>Kufri, Shimla</li>
+ <li>Ooty</li>
+ <li>Backwaters in Kerala</li>
+ <li>Hawa Mahal</li>
+ <li>Ladakh</li>
+ </ul></div>
+  <div id = "hyperlink"><a href = "https://world-words.com/travel-website-content-writing/">Here is the hyperlink for the source page</a></div>
+ </div>
+ <div id = "footer">
+ <h2 style = "text-align:center; color:rgb(54, 54, 54); font-weight:lighter; padding-top:20px;">All rights reserved</h2>
+<div id = "footer2">
+<a id = "footer21">Terms Of Services</a>
+<a id = "footer21">Privacy policy</a>
+<a id = "footer21">Contact Us</a>
+</div>
+ </div>
+ </body>
+ </html>

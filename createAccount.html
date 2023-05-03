@@ -1,0 +1,196 @@
+  <!doctype html>
+ <html>
+ <head>
+ <title></title>
+ <style>
+ #header {
+ display:flex;
+ flex-direction:row;
+ justify-content:space-between;
+ background-color:rgb(0,0,0);
+ height:150px;
+}
+ #footer {
+ background-color:rgb(194, 194, 194);
+ height:170px;
+ }
+ #main {
+ font-family:'Poor Richard';
+ background-color:rgb(206, 237, 215);
+ }
+ #navbar {
+margin-top:60px;
+margin-right:10px;
+ }
+ .navbutton {
+  font-family:'Poor Richard';
+ font-size:20px;
+ border:2px solid rgb(0,0,0);
+ background-color:rgb(0,0,0);
+ color:white;
+ height:50px;
+ width:130px;
+ border-radius:20px;
+ }
+ .navbutton:hover {
+ background-color:rgb(0, 181, 63);
+ cursor:pointer;
+ color:white;
+ }
+#footer2 {
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+#footer21 {
+padding:30px;
+}
+#footer21:hover {
+color:rgb(0, 181, 63);
+cursor:pointer;
+}
+#webname {
+color:white;
+margin-left:20px;
+margin-top:50px;
+font-family:"Forte";
+}
+#webname:hover {
+color:rgb(0, 181, 63);
+cursor:pointer;
+}
+#accountform {
+height:900px;
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+}
+#buttonLogin {
+margin-top:150px;
+display:flex;
+flex-direction:column;
+}
+#accountForm {
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+background-color:white;
+border-radius:30px;
+margin-top:100px;
+width:700px;
+}
+#accountHead {
+text-align:center; 
+background-color:rgb(0, 181, 63); 
+border-radius:30px;
+}
+input,select {
+border:2px solid grey;
+border-radius:5px;
+height:30px;
+margin-top:10px;
+margin-left:15px;
+font-size:18px;
+font-family:'Poor Richard';
+}
+#button {
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+margin:20px;
+margin-left:40px;
+margin-right:40px;
+}
+#submit {
+background-color:rgb(0, 181, 63);
+border-radius:10px;
+}
+#clear {
+border:2px solid rgb(0, 181, 63);
+border-radius:10px;
+}
+h2 {
+color:rgb(0, 181, 63);
+}
+#yesno {
+display:flex;
+flex-direction:row;
+margin:20px;
+font-weight:bold;
+}
+ </style>
+ <script></script>
+ </head>
+ <body>
+ <div id = "header">
+ <img src = "logo.jpg" style = "height:120px; width:120px;margin:20px;">
+ <h1 id = "webname">MK Travels</h1>
+ <div id = "navbar">
+<button class = "navbutton" onclick = "window.location.href = 'home.html' ;">Home</button>
+<button class = "navbutton" onclick = "window.location.href = 'createAccount.html' ;">Create Account</button>
+</div>
+ </div>
+ <div id = "main">
+ <div id = "accountform">
+  <div id = "leftDiv">
+    <div id = "buttonLogin">
+	<h2 style = "color:rgb(0, 181, 63); font-size:70px; margin-top:20px;">Let's do it faster</h2>
+    <a href = "accountResult.html"><img src = "google.jpg" style = "height:80px; width:400px"></a>
+	<a href = "accountResult.html"><img src = "facebook.jpg" style = "margin-top:50px; height:80px; width:400px"></a>
+	</div>
+  </div>
+  <div id = "rightDiv">
+    <div id = "accountForm">
+	<form>
+	  <div id = "accountHead"><h1 style = "padding-top:15px;">Create an account</h1></div>
+	  <h2>Full Name</h2><div>
+	  <input type = "text" placeholder = "first name" style = "width:150px">
+	  <input type = "text" placeholder = "middle name" style = "margin-left:50px">
+	  <input type = "text" placeholder = "last name" style = "margin-left:50px"></div>
+	  <h2>E-mail</h2>
+	  <input type = "email" placeholder = "ex:myname@example.com" style = "width:250px">
+	  <h2>Birth Date</h2>
+	  <div>
+	  <select>
+	  <option>Jan</option>
+	  <option>Feb</option>
+	  <option>Mar</option>
+	  <option>Apr</option>
+	  <option>May</option>
+	  <option>Jun</option>
+	  <option>July</option>
+	  <option>Aug</option>
+	  <option>Sept</option>
+	  <option>Oct</option>
+	  <option>Nov</option>
+	  <option>Dec</option>
+	  </select>
+	  <input type = "text" placeholder = "day">
+	  <input type = "text" placeholder = "year">
+	  </div>
+	  <h2>Surname</h2>
+	  <input type = "text" placeholder = "Surname" style = "width:250px">
+	  <h2>Keep me in update</h2>
+	  <div id = "yesno">
+	  <input type = "radio" name = "yesno"><label>Yes</label>
+	  <input type = "radio" name = "yesno"><label>No</label>
+	  </div>
+	  <div id = "button">
+	  <input id = "submit" type = "button" value = "Submit">
+	  <input id = "clear" type = "button" value = "Clear form">
+	  </div>
+	</div>
+	</form>
+  </div>
+ </div>
+ </div>
+ <div id = "footer">
+ <h2 style = "text-align:center; color:rgb(54, 54, 54); font-weight:lighter; padding-top:20px;">All rights reserved</h2>
+<div id = "footer2">
+<a id = "footer21">Terms Of Services</a>
+<a id = "footer21">Privacy policy</a>
+<a id = "footer21">Contact Us</a>
+</div>
+ </div>
+ </body>
+ </html>
