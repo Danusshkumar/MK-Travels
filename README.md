@@ -6,7 +6,7 @@ This is a simple website that showcases the UI design of a travel agency. It has
 ## Features
 
 - Home page with a navbar
-- Sign up page with a form that validates the input fields
+- Sign up page with a form
 
 ## Installation
 
