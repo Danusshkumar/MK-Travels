@@ -23,7 +23,7 @@ To use the website, you can:
 - Navigate between the home page and the sign up page using the navbar links
 - View the different sections of the home page by scrolling down
 - Fill in the sign up form with your name, email, password and confirm password
-- Click on the `Sign Up` button to submit the form\
+- Click on the `Sign Up` button to submit the form
 - Enjoy the website!
 
 ## Deployment 
